@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: black;
+  background-color: rgb(101, 167, 165);
 }
 
 .hiasan {
@@ -124,22 +124,12 @@ header a:hover {
     cursor: pointer;
 }
 
-.main {
-    display: flex;
-    align-items: flex-start;
-    min-height: calc(100vh - 80px);
-    padding: 40px 60px;
-    flex-wrap: wrap;
-    margin-left: 360px;
-}
-
-
 .framefoto {
     width: 320px;
     height: 320px;
     position: absolute;
     left: 20px;
-    top: 100px;
+    top: 150px;
     overflow: hidden;
     border-radius: 45% 55% 60% 40% / 45% 35% 65% 55%;
     transform: rotate(-5deg);
@@ -150,6 +140,15 @@ header a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    min-height: calc(100vh - 80px);
+    padding: 40px 60px;
+    flex-wrap: wrap;
+    margin-left: 360px;
 }
 
 .angel {
@@ -181,9 +180,22 @@ header a:hover {
     margin-top: 10px;
 }
 
+.ig-identitas {
+    display: inline-flex; 
+    align-items: center;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: beige;
+    color: red;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
 .kata2 {
     font-size: 30px;
     color: blanchedalmond;
     margin: 0;
     font-style: italic;
 }
+
+
